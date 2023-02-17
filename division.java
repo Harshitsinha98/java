@@ -4,13 +4,13 @@ class Grade{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter you Score to check your division : ");
 		int a = sc.nextInt();
-		if (a==100)
+		if (a==90)
 			System.out.println("Your score first division with honors");
-		else if (a>=75)
+		else if (a>=65)
 			System.out.println("Your score first division ");
-		else if (a>=50)
+		else if (a>=40)
 			System.out.println("Your score second division ");
-		else if (a>=33)
+		else if (a>=23)
 			System.out.println("Your score third division division ");
 		else
 			System.out.println("You failed this assesment ");
